@@ -1,38 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-        <title>Contact</title>
-    <!--Index file for Bio Information-->
+        <title></title>
+    <!--Contact file for Bio Information-->
     <!-- Link to your external CSS -->
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
 
-    <!-- Center -->
+    
 <header>
-    <div>
         <h1>
-            <a href="contact.html">About Me</a>
+        <!------<a href="index.html">About Me</a>--->
         </h1>
-        <h1>Your Name</h1>
+        <h1 id="name">Nolen G. Diggs</h1>
         <nav>
-            <a href="contact.html">Contact</a>
-            <a href="portfolio.html">Portfolio</a>
-            <a href="About.html">About</a>
+            <a id="contact1" href="contact.html">Contact</a>
+            <a id="contact2" href="portfolio.html">Portfolio</a>
+            <a id="contact3" href="index.html">About Me</a>
             
         </nav>
-    </div>
-</header>
-</body>
-</html>
-<section>
-    <form action="action_page.txt">
-      Name:<input type"text" name="fname"><br><br>
-      Email:<input type"text" Email="email"><br><br>
-      Message:<input type"text" name="Message" min="1" max="32">
-      <input type="submit" value="Submit">
-    </form>
     
+</header>
+<section>
+<div class="container">
+    <h1 id="left">Contact</h1>
+<form action="action_page.txt">
+      Name:<input type "text" name="fname"><br><br>
+      Email:<input type"text" Email="email"><br><br>
+         
+    <textarea rows="25" cols="50" name="Message" wrap="hard">
+</textarea>
+<input type="submit">
+</form>
+</div>
     
 </section>
+</body>
+</html>
